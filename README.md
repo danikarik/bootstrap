@@ -1,0 +1,2 @@
+# bootstrap
+Django Starter Kit
