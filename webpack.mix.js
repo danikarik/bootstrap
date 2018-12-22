@@ -12,9 +12,9 @@ let mix = require('laravel-mix');
  */
 
 mix
-    .js('resources/assets/js/app.js', 'static')
-    .ts('resources/assets/ts/index.ts', 'static')
-    .sass('resources/assets/sass/app.scss', 'static')
+    .js('resources/assets/js/app.js', 'static/js')
+    .ts('resources/assets/ts/index.tsx', 'static/ui')
+    .sass('resources/assets/sass/app.scss', 'static/css')
     .extract()
     .sourceMaps()
     .setPublicPath('static');
