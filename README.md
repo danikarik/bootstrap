@@ -1,2 +1,3 @@
-# bootstrap
+# Django Kit
+
 Django Starter Kit
