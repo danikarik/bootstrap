@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="manifest" href="{{ static('mix-manifest.json') }}">
+    <link rel="shortcut icon" href="{{ static('favicon.ico') }}">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ static('css/app.css') }}">
+    {% block style %}{% endblock %}
+</head>
+<body>
+    {% block content %}{% endblock %}
+    {# <script type="text/javascript" src="{{ static('js/vendor.js') }}"></script> #}
+    {# <script type="text/javascript" src="{{ static('js/manifest.js') }}"></script> #}
+    <script type="text/javascript" src="{{ static('js/app.js') }}"></script>
+    <script type="text/javascript" src="{{ static('ui/manifest.js') }}"></script>
+    <script type="text/javascript" src="{{ static('ui/vendor.js') }}"></script>
+    <script type="text/javascript" src="{{ static('ui/index.js') }}"></script>
+</body>
+</html>

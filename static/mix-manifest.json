@@ -7,5 +7,6 @@
     "/css/app.css": "/css/app.css",
     "/js/app.js.map": "/js/app.js.map",
     "/ui/index.js": "/ui/index.js",
-    "/ui/index.js.map": "/ui/index.js.map"
+    "/ui/index.js.map": "/ui/index.js.map",
+    "/favicon.ico": "/favicon.ico"
 }
