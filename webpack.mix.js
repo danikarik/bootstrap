@@ -3,7 +3,7 @@ let tailwindcss = require('tailwindcss');
 
 mix
     .js('resources/assets/js/app.js', 'static/js')
-    .ts('resources/assets/ts/index.tsx', 'static/ui')
+    .ts('resources/assets/ui/index.tsx', 'static/ui')
     .sass('resources/assets/sass/app.scss', 'static/css')
     .options({
         processCssUrls: false,
