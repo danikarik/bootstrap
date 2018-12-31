@@ -18,6 +18,10 @@ from django.urls import path
 from django.views.generic import TemplateView
 
 urlpatterns = [
+    # index page
     path('', TemplateView.as_view(template_name='index.jinja')),
-    path('admin/', admin.site.urls),
+    # auth endpoints
+
+    # admin area
+    path('boss/', admin.site.urls),
 ]
